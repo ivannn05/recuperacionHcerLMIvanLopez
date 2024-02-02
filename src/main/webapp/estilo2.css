@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+header {
+	background-color: darkred;
+	display: flex;
+}
+
+.people {
+	width: 10%;
+	margin-left: 2%;
+	border-radius: 100%;
+}
+
+h1 {
+	color: lightblue;
+
+	margin-top: 3%;
+
+	text-decoration: underline lightblue double;
+	margin-left: 28%;
+	margin-right: 26%;
+	text-align: center;
+}
+
+.cuadro {
+	background-color: darkorange;
+	display: flex;
+	margin-left: 35%;
+}
+
+.medio {
+	text-align: center;
+}
+
+td,
+th {
+	font-size: 32px;
+	width: 20vw;
+	border-top: solid lightblue;
+	border-bottom: solid lightblue;
+}
+
+td[colspan] {
+	text-align: center;
+}
+
+th+td {
+	border-right: solid lightblue;
+}
+
+footer {
+	background-color: darkred;
+	text-align: center;
+}
+
+.crudo {
+	background-color: lemonchiffon;
+}
